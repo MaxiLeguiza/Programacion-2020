@@ -1,0 +1,21 @@
+body {
+    background-color:rgba(99, 120, 240, 0.356); 
+}
+
+h1 {
+    background-color: rgba(0, 0, 255, 0.192);
+}
+
+H1 {
+    background-color: cadetblue;
+}
+
+#usuario{
+    background-color: rgba(0, 0, 255, 0.411);
+    width: 50%; 
+}
+
+#contraseñia{
+    background-color: rgba(0, 0, 255, 0.411);
+    width: 50%;
+}
