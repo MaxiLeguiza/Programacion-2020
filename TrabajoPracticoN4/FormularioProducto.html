@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Producto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+
+</head>
+    <body >
+        <center>
+            <h1 class="display-1 p-3 mb-2 bg-success text-white">Formulario  de Productos</h1>
+        </center>
+       
+        
+
+        <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="text-success" href="./Perfil.html">Perfil</a></li>
+                <li class="breadcrumb-item"><a class="text-success" href="./PracticaPagina2.html">Lista de Productos</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Formulario de Productos</li>
+            </ol>
+         </nav>
+ 
+       
+       <fieldset>
+      
+           <div class="row">
+               <div class="col-sm"></div>
+               <div class="col-sm">
+                    <form id="formPersonal">
+                        <p>
+                            <label for="">Ingrese datos del Producto:</label>
+                        </p>
+                        
+                        <p>
+                            <label for="">Nombre: </label>
+                            <input type="text" id = "nombre" />
+                        </p>
+
+
+                        <p>
+                            <label for="">Precio : </label>
+                            <input type="text" id = "Precio" />
+                        </p>
+
+                        <p>
+                            <label for="">Marca: </label>
+                            <select name="marca" id="marca">
+
+                                <option value="Adidas">Adidas</option>
+                                <option value="Nike">Nike</option>
+                                <option value="DRB">DRB</option>
+                                <option value="Salomon">Salomon</option>
+                                <option value="Cat">Cat</option>
+                                
+                            </select>
+                                
+                        </p>
+
+                    </form>
+               </div>
+               <div class="col-sm"></div>
+           </div>
+
+            <b>
+               <center>
+                    <FORM>
+                    
+                        <input name="Agregar" type="button" onclick='alert("Su producto se ha agregado exitosamente.")' value="Agregar" />
+                    
+                        
+                    </FORM>
+                  
+                  
+                </center> 
+            </b>
+           
+        </fieldset> 
+
+           
+        
+    </body>
+</html>
