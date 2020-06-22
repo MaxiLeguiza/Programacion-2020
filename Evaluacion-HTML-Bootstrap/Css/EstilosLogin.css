@@ -1,0 +1,74 @@
+body{
+    background-image: url(/img/Login/Background-logIn.jpg);    
+    background-repeat: no-repeat   ;
+    background-size: cover;
+}
+
+.formulario{
+    background: rgba(0, 0, 0,.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.568);
+        
+   
+}
+
+.form-control{
+    background: rgba(0,0,0, .3);
+    border-style: none;
+    transition: 0.3s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+.form-control:focus{
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+.form-control::placeholder{
+    color: white;
+}
+.Entrar{
+        background: #1974D2;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        box-shadow: 0 0 30px rgba(0,0,0,0.568);
+}
+.contraseñaOlvidada{
+    color: white;
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+.contraseñaOlvidada:hover{
+    color:white;
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+
+.Registro{
+    color: white;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
+}
+.Registro:hover{
+    color:white;
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+.divicion{
+    border-top: 1px solid #d9dadc;
+    display: block;
+    line-height: 1px;
+    margin: 15px 0;
+    position: relative;
+    text-align: center;
+}
+
